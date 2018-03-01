@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/sh
 
 if [ -z ${HOST_HOSTNAME+x} ]; then
   echo "Environment variable 'HOST_HOSTNAME' not set, we won't add the hostname metric."
